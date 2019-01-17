@@ -59,6 +59,9 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
   header {
     background-color: beige;
   }
@@ -73,6 +76,7 @@ footer {
 
   #column-3 {
     background-color: cadetblue;
+    width: 100%;
   }
 
   footer {
@@ -98,10 +102,13 @@ footer {
 
   #column-3 {
     background-color: darkorange;
+    width: 33.3%;
   }
 
   footer {
     background-color: darksalmon;
   }
-   
+  .col-3 {
+    width: 33.3%;
+  }
 }
